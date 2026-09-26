@@ -1,0 +1,144 @@
+
+body{
+    background:linear-gradient(to bottom,black,gold,black,gold);
+}
+
+
+.navbar{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right ,black,gold,black);
+}
+
+.nav-links{
+    display: flex;
+    gap: 40px;
+    color:blueviolet;
+    margin: 10px;
+    font-size: 16px;
+
+}
+
+.logo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    padding: 20px;
+    color: black
+    
+}
+
+.hero{
+    text-align: center;
+   
+}
+
+.hero_content{
+    text-align: center;
+    background-image: url("constructionsideimg.jpg");
+    background-size: center;
+    background-position: center;
+    height:300px;
+
+}
+
+.hero_content h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.hero_content h1 span:nth-child(1){
+    color:gold;
+}
+
+.hero_content h1 span:nth-child(2){
+    color:black;
+}
+.hero_content h1 span:nth-child(3){
+    color: gold;
+    
+}
+
+
+.hero_content h4{
+       font-size: 20px;
+       margin-bottom: 15px;
+       margin-top: 25px;
+       color: azure;
+}
+
+.hero_content p { 
+    font-size: 17px; 
+    margin-bottom: 25px;
+     color: whitesmoke;
+ }
+
+ .hero_buttons{
+     display: flex;       /*  arrange buttons in line */
+    justify-content:center; /*bring buttons in center*/
+    gap: 30px;
+
+ }
+ .hero_buttons:hover{
+      background-color: black; 
+ }
+
+ .locations h2{
+    display: flex;
+    justify-content: center;
+    color:black;
+    
+ }
+ .isl {
+    text-align: center;
+}
+ .isl img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    }
+ 
+ .isl h3{
+     margin-top: 5px; /*image ka nicha 5px gap then heading */
+     color:gold;
+ }
+ .isl p{
+    color: gold;
+ }
+
+
+ .rwp{
+    text-align: center;
+ }
+
+ .rwp img{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+
+ footer {
+    background:linear-gradient(to right ,gold,black,gold);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    
+   
+}
+
+.footer_sec{
+    display:flex;
+    justify-content: center;
+}
+.services p:hover{
+    color: gold;
+}
+.contact p:hover{
+    color: gold;
+}
